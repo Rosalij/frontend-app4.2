@@ -27,17 +27,19 @@
   </header>
   <main>
     <div class="container_text1">
-      <h2>Gästbok</h2>
-      <p>Registera dig eller logga in för att skriva i gästboken!</p>
+      <h2>Logga in</h2>
+      <p>Logga in med ditt namn och lösenord</p>
     </div>
     <div class="guestbook_container">
       <div>
-        <ul>
-          <li id="post_li">
-            <p id="from">från Rosali, 1212-12-12:
-            <p>Grattis till studenten Ingrid!</p>
-          </li>
-        </ul>
+       <form action="/login">
+
+        <label for="name">Namn:</label>
+        <input type="text" id="namn" name="name">
+          <label for="Lösenord">Lösenord:</label>
+        <input type="password" id="password" name="password">
+        <button id="loginbutton">Bekräfta</button>
+       </form>
       </div>
     </div>
   </main>

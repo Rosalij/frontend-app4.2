@@ -7,10 +7,6 @@
   list-style-type: none;
 }
 
-body {
- 
-}
-
 header {
   background-color: white;
 }
@@ -72,6 +68,8 @@ h1:first-child {
 .container_text1 p {
   padding-bottom: 1em;
   font-size: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -106,6 +104,64 @@ a {
   padding: 0.4em
 }
 
-a:hover {
+a:hover, button:hover {
 text-decoration: underline;
 text-decoration-thickness: 1px;}
+
+footer p{
+  background-color: #c8c8c8;
+  font-size: 1em;
+  margin: auto;
+  text-align: center;
+  font-family:monospace;
+  
+}
+
+footer {
+  padding-top: 0.2;
+  padding-bottom: 0.2em;
+   background-color: #c8c8c8;
+}
+
+form {
+
+  padding: 1em;
+  display: flex;
+  
+  flex-direction: column;
+}
+
+label {
+font-size: 1.2em;
+color: white;
+
+  margin-top:1em;
+}
+
+#registerbutton, #loginbutton {
+    color: #fff5a0;
+  padding: 0.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: auto;
+font-size: 1em;
+  margin-top: 2em;
+  font-weight: 500;
+    background-color:  rgba(0, 93, 159, 0.736);
+    border: 2px;
+    border-style: solid;
+    transition: 0.5s;
+}
+
+#registerbutton:hover, #loginbutton:hover {
+  background-color: rgb(57, 93, 131);
+}
+
+input {
+  padding: 0.2em;
+ font-family:monospace;
+ font-size: 0.8em;
+ margin: auto;
+max-width:20em;
+color: rgb(0, 0, 0);
+}
