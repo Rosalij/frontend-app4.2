@@ -36,8 +36,6 @@ main {
 }
 
 .guestbook_container {
- 
-
   width: 80%;
   margin-top: 2em;
 background-color: rgba(0, 93, 159, 0.736);
@@ -47,8 +45,9 @@ color: #fff5a0;
   margin-bottom: 2em;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.236);
   border-style: solid;
-  border-color: rgb(233, 233, 233);
-  border-width: 4px;
+  border-color:rgba(255, 255, 255, 0.855);
+  border-width: 2px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212);
 }
 
 
@@ -67,7 +66,7 @@ h1:first-child {
   font-weight: 500;
   text-decoration: underline;
   text-decoration-thickness: 4px;
-  text-decoration-color: rgb(172, 230, 255);
+  text-decoration-color: rgba(0, 93, 159, 0.736);
 }
 
 .container_text1 p {
@@ -89,19 +88,19 @@ nav ul {
   height: 4em;
   border-bottom-style: solid;
     border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 5px;
   border-bottom-width: 5px;
-  border-top-color:rgba(0, 0, 0, 0.855);
+  border-top-color:rgba(172, 230, 255, 0.855);
   border-bottom-color: rgba(172, 230, 255, 0.855);
   align-items: center;
   display: flex;
-  background-color: hwb(195 89% 0%);
+  background-color:  rgba(0, 93, 159, 0.736);
   justify-content: space-around
 }
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #fff5a0;
  
   transition: 0.7s;
   padding: 0.4em
