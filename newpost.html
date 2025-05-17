@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
+     <script src="checkAuth.js"></script>
 
     <title>Student 2025</title>
 </head>
@@ -17,7 +17,7 @@
             <h1>Ingrid</h1>
             <h1 id="h1_2">Student 2025<br></h1>
         </div>
-      <nav id="menu">
+         <nav id="menu">
             <ul>
                 <li><a href="/">Gästbok</a></li>
                 <li><a href="/newpost.html">Nytt inlägg</a></li>
@@ -29,17 +29,15 @@
     </header>
     <main>
         <div class="container_text1">
-            <h2>Logga in</h2>
-            <p>Logga in med ditt namn och lösenord</p>
+       
         </div>
         <div class="form_container">
             <div>
-                <form id="loginform">
-                    <label for="name">Namn:</label>
-                    <input type="text" id="name" name="name">
-                    <label for="Lösenord">Lösenord:</label>
-                    <input type="password" id="password" name="password">
-                    <button type="submit" id="loginbutton">Bekräfta</button>
+                <form action="#" id="postform">
+                    <label for="post">Skriv nytt inlägg i gästboken:</label>
+                    <textarea id="textinput" name="textinput" placeholder="Skriv din hälsning här..."></textarea>
+
+                    <button id="loginbutton" type="submit">Bekräfta</button>
                 </form>
             </div>
         </div>
