@@ -7,6 +7,8 @@ Användare loggar in med namn och lösenord. När inloggade användare skapar et
 
 Auktorisering och autentisering görs med hjälp av REST api och Json web token.
 Länk till API: (https://github.com/Rosalij/m4.git)
+Publicerad webbplats:
+(https://ingridstudent.netlify.app/)
 
 Token sparas i localstorage vid inloggning och försvinner vid utloggning.
 
